@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+ul,
+li,
+a {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: 'Fjalla One', sans-serif;
+	padding: 0;
+	margin: 0;
+	min-height: 100vh;
+	background: white;
+}
+
+.header{
+    height: 80px;
+    background-color: white;
+}
+
+.header-contenido{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.header-Link{
+    font-size: 1.8em;
+    color: black;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-carrito{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-carrito img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.header-carrito-flotante{
+    position: fixed;
+    top: 0;
+    margin-top: 5px;
+    padding: 1em;
+    width: 90px;
+    background-color:honeydew;
+    border-radius: 40px;
+    /* border: 3px solid chocolate; */
+}
+
+.header-carritoCount{
+    background-color: orange;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+}
+
+.div-tabla-carrito
+{
+    display: none;
+    margin-top: 50px;
+    position: fixed;
+    width : 30%;
+    background-color: white;
+    padding: 1em;
+}
+
+.visible{
+    display: block;
+}
+
+.tabla-carrito{
+    border: 0;
+    width: 100%;
+    border-spacing:0;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.tabla-carrito tr
+{
+    border: 1px solid black;
+    background-color:#ffff;
+    border:0;
+}
+  
+.tabla-carrito td{
+padding:10px;
+border: 1px solid black;
+}
+  
+.tabla-carrito th{
+background-color:blanchedalmond;
+border: 1px solid black;
+color:black;
+padding:20px;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sectionBienvenida{
+    width: 100%;
+    background-color: skyblue;
+    height: 35vh;
+    color: white;
+}
+
+.sectionBienvenida-titulo{
+    font-size: 3em;
+}
+
+.cursos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.curso{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 320px;
+    height: auto;
+    border: 5px solid darkolivegreen;
+    margin-bottom: 1em ;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+
+.curso-header{
+    max-width: 320px;
+}
+
+.curso img{
+    max-width: inherit;
+    padding: 0 1em 1em 1em;
+    border-bottom: 5px dashed  darkolivegreen;
+}
+
+.curso h3,p,div,button{
+    margin: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.curso button{
+    border: 1px solid skyblue;
+    background-color: skyblue;
+    cursor: pointer;
+    font-weight: 900;
+    color: white;
+}
+
